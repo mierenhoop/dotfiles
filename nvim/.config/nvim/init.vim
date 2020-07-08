@@ -29,6 +29,16 @@ call sign_define("LspDiagnosticsInformationSign", {"text" : "", "texthl" : "L
 call sign_define("LspDiagnosticsHintSign", {"text" : "", "texthl" : "LspDiagnosticsWarning"})
 
 " Setup the clangd language server
+" To setup the sumneko_lua server, first :LspInstall sumneko_lua, then if it
+" doesn't work, go to ~/.cache/nvim/nvim_lsp/sumneko_lua/lua-language-server
+" in ./main.lua set rootPath to the path of the repo in 
+" ./test.lua comment out everything except the last line, in
+" ./3rd/bee.lua/test/test.lua and 3rd/luamake/3rd/bee.lua/test/test.lua do the same.
+" If you did everything right then run
+" cd 3rd/luamake
+" ninja -f ninja/linux.ninja
+" cd ../..
+" ./3rd/luamake/luamake
 lua << EOF
 local on_attach_vim = function()
   require'completion'.on_attach()
