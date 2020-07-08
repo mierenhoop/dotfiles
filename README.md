@@ -1,4 +1,5 @@
 # Dotfiles
+The dotfiles can be managed with GNU Stow, just run `stow <DIR>`
 
 ## XFCE
 ### Theme
@@ -21,5 +22,5 @@ Workspace n: Super+n
 - Keyboard > Behavior: Repeat delay: 300, Repeat speed: 50
 
 ## Terminal
-[This build of st](https://github.com/LukeSmithxyz/st) with [screry theme](https://raw.githubusercontent.com/srcery-colors/srcery-terminal/master/st/srcery_st.c) and alpha set to 1.0.
+[This build of st](https://github.com/LukeSmithxyz/st) with [srcery theme](https://raw.githubusercontent.com/srcery-colors/srcery-terminal/master/st/srcery_st.c) and alpha set to 1.0.
 
