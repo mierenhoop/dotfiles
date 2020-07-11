@@ -22,12 +22,6 @@ let g:completion_matching_ignore_case = 1
 
 inoremap <silent> <expr> <C-Space> completion#trigger_completion()
 
-" Better icons
-call sign_define("LspDiagnosticsErrorSign", {"text" : ">>", "texthl" : "LspDiagnosticsError"})
-call sign_define("LspDiagnosticsWarningSign", {"text" : "⚡", "texthl" : "LspDiagnosticsWarning"})
-call sign_define("LspDiagnosticsInformationSign", {"text" : "", "texthl" : "LspDiagnosticsInformation"})
-call sign_define("LspDiagnosticsHintSign", {"text" : "", "texthl" : "LspDiagnosticsWarning"})
-
 " Setup the clangd language server
 " To setup the sumneko_lua server, first :LspInstall sumneko_lua, then if it
 " doesn't work, go to ~/.cache/nvim/nvim_lsp/sumneko_lua/lua-language-server
