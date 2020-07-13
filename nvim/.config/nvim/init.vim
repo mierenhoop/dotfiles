@@ -71,7 +71,7 @@ nnoremap <silent> K     <cmd>lua vim.lsp.buf.hover()<CR>
 nnoremap <silent> gr    <cmd>lua vim.lsp.buf.references()<CR>
 
 nnoremap <C-c> <cmd>make!<CR>
-nnoremap <C-r> <cmd>make! run<CR>
+nnoremap <C-x> <cmd>make! run<CR>
 
 " Open the file manager
 nmap <silent> <space>j :NERDTreeToggle<CR>
