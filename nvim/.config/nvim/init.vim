@@ -10,6 +10,7 @@ Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
+set termguicolors
 colorscheme srcery
 
 " Better auto completion
